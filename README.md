@@ -12,8 +12,8 @@ Run `docker compose up -d`.
 
 ## Windows users
 
-[!IMPORTANT]
-This does not work in Docker Desktop. You _must_ install docker directly in WSL2.
+> [!IMPORTANT]
+> This does not work in Docker Desktop. You _must_ install docker directly in WSL2.
 
 ```
 sudo apt update
@@ -29,8 +29,8 @@ You also have to configure WSL2:
 	- DNS Tunneling enabled: false (if networking mode: NAT)
 
 
-[!TIP]
-Alternatively you can manually edit `C:\\Users\\{username}\\.wslconfig`.
+> [!TIP]
+> Alternatively you can manually edit `C:\\Users\\{username}\\.wslconfig`.
 
 ```
 [wsl2]
@@ -40,9 +40,9 @@ dnsTunneling=false
 hostAddressLoopback=true
 ```
 
-[!WARNING]
-Due to an unresolved hairpin NAT issue, the Windows WSL2/Docker host will not be able to
-see your mdns broadcast, but everyone else on the network will. 
+> [!WARNING]
+> Due to an unresolved hairpin NAT issue, the Windows WSL2/Docker host will not be able to
+> see your mdns broadcast, but everyone else on the network will. 
 
 ## Make a self-signed cert in linux
 
