@@ -6,7 +6,8 @@ and internally routed without much effort. It also can enable HTTPS for HTTP ser
 
 ## Running
 
-Edit `services.mdns.environment.IP` in `compose.yaml` to your actual external IP address.
+> [!IMPORTANT]
+> Edit `services.mdns.environment.IP` in `compose.yaml` to your actual external IP address.
 
 Run `docker compose up -d`.
 
