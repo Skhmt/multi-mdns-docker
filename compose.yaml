@@ -16,7 +16,6 @@ services:
         ports:
             - 80:80
             - 443:443
-        environment: # HTTPS_METHOD: noredirect
         volumes:
             - /var/run/docker.sock:/tmp/docker.sock:ro
             # - ./certs:/etc/nginx/certs:ro    # optional if you need certs for ssh
